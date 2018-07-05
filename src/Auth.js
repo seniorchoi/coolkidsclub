@@ -10,7 +10,7 @@ export default class Auth {
   auth0 = new auth0.WebAuth({
     domain: 'empresar.auth0.com',
     clientID: 'gqMQu2KnSLdAGVxfIq12AG4JZBNRp7SX',
-    redirectUri: 'https://localhost:3000/callback',
+    redirectUri: 'https://dasfunclub.herokuapp.com/callback',
     audience: 'https://empresar.auth0.com/userinfo',
     responseType: 'token id_token',
     scope: 'openid profile'
